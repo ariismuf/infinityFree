@@ -19,4 +19,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 ?>
-<a href="formulario.html">Volver</a>
+<a href="index.html">Volver</a>

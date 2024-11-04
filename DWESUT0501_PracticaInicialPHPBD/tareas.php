@@ -26,4 +26,4 @@ try {
     echo "Error al mostrar las tareas: " . $e->getMessage();
 }
 ?>
-<a href="formulario.html">Volver</a>
+<a href="index.html">Volver</a>
