@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         echo "Error al añadir la tarea: " . $e->getMessage();
         exit;
     }
-    header("Location: index.html");
+    header("Location: index.php");
     exit;
 }
 ?>
