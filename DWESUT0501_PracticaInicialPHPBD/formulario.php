@@ -14,6 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $stmt->execute();
     } catch (PDOException $e) {
         echo "Error al añadir la tarea: " . $e->getMessage();
+        exit;
     }
+    header("Location: index.html");
+    exit;
 }
 ?>
