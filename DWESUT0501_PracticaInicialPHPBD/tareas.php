@@ -6,7 +6,6 @@ try {
     $sql = "SELECT * FROM tasks";
     $stmt = $pdo->query($sql);
 
-    echo "<h1>Lista de Tareas</h1>";
     echo "<table border='1'>
             <tr>
                 <th>ID</th>
@@ -26,4 +25,3 @@ try {
     echo "Error al mostrar las tareas: " . $e->getMessage();
 }
 ?>
-<a href="index.html">Volver</a>

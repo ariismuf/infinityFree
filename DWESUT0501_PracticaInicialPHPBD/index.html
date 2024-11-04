@@ -10,17 +10,11 @@
     <label for="task">Tarea:</label>
     <input type="text" id="task" name="task" required>
 
-    <label for="status">Estado:</label>
-    <select id="status" name="status" required>
-        <option value="pendiente">Pending</option>
-        <option value="completada">Completed</option>
-    </select>
-
     <button type="submit">Añadir Tarea</button>
 </form>
 
-<form action="tareas.php" method="GET">
-    <button type="submit">Ver Tareas</button>
-</form>
+<h2>lista de tareas</h2>
+
+<?php include 'tareas.php'; ?>
 </body>
 </html>
