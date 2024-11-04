@@ -3,7 +3,7 @@ global $pdo;
 include 'conexion.php';
 
 try {
-    $sql = "SELECT * FROM tareas";
+    $sql = "SELECT * FROM tasks";
     $stmt = $pdo->query($sql);
 
     echo "<h1>Lista de Tareas</h1>";

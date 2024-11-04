@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $status = $_POST["status"];
 
     try {
-        $sql = "INSERT INTO tareas (task, status) VALUES (:task, :status)";
+        $sql = "INSERT INTO tasks (task, status) VALUES (:task, :status)";
         $stmt = $pdo->prepare($sql);
         $stmt->bindParam(':task', $task);
         $stmt->bindParam(':status', $status);
