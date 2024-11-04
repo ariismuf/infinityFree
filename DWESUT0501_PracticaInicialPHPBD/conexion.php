@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "sql201.infinityfree.com";
 $dbname = "if0_37649053_todolist";
 $username = "if0_37649053";
 $password = "wKB0JSLP2O04";
