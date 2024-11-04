@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario tareas</title>
+</head>
+<body>
+<h1>Agregar Tarea</h1>
+<form action="procesar_formulario.php" method="POST">
+    <label for="task">Tarea:</label>
+    <input type="text" id="task" name="task" required>
+
+    <label for="status">Estado:</label>
+    <select id="status" name="status" required>
+        <option value="pendiente">Pendiente</option>
+        <option value="completada">Completada</option>
+    </select>
+
+    <button type="submit">Añadir Tarea</button>
+</form>
+
+<form action="ver_tareas.php" method="GET">
+    <button type="submit">Ver Tareas</button>
+</form>
+</body>
+</html>
